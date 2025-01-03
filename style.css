@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+ 
+    background-color: white;
+    font-weight: 400;
+    color: black;
+   
+}
+
+.card{
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: white;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 45px 35px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color:#555;
+    padding: 10px 30px;
+    border-radius: 13px;
+    font-size: 15px;
+    margin-right: 16px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 16px;
+}
+
+.weather-icon{
+width: 170px;
+margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col img{
+ width: 50px;
+}
+
+.col p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.col{
+    
+    align-items: center;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+
+.details_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.col_2{
+
+    align-items: center;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.col_2 img{
+ width: 70px;
+ margin-right: 35px;
+}
+
+.col_2 p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.humudity, .wind , .sunset, .sunrise{
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+   font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: none;
+
+}
